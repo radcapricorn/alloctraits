@@ -50,6 +50,8 @@ make sure that concrete allocator implementations are compatible with requested
 traits:
 
 ```D
+import ext.allocator;
+
 struct Collection(T, AllocTraits traits = AllocTraits.none)
 {
     IAllocator!traits allocator_;
