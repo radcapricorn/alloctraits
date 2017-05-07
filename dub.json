@@ -1,0 +1,9 @@
+{
+	"name": "alloctraits",
+	"authors": [
+		"Stanislav Blinov"
+	],
+	"description": "D allocators with traits",
+	"copyright": "Copyright © 2017, Stanislav Blinov",
+	"license": "public"
+}
